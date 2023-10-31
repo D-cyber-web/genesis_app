@@ -15,9 +15,10 @@
     <section class="header">
         <div class="container">
             <img src="{{ asset('images/logo-removebg-preview.png') }}" alt="real estates">
+            <a href ="{{route('login')}}">
             <button type="button" class="login-btn">login</button>
+            </a>
             <form id="login-form" action="index.html" method="post">
-                <!-- Login form fields go here -->
             </form>
             
 
